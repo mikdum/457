@@ -42,6 +42,7 @@ function btn_aloita(){
         clearInterval(timer);
 
     }
+    score=0;
     peliStarted=true;
     timer=setInterval(peliisgoing,20);   
     timestarted=Date.now();
